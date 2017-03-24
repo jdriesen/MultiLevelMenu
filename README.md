@@ -44,7 +44,7 @@ See the image below for details
 
 
 
-The SQL script to create, and fill your '*** menus ***' table in included in the SQL folder
+The SQL script to create, and fill your '***menus***' table is included in the SQL folder
 
 
 #### Step 2: The Controller. ####
