@@ -2,6 +2,17 @@
 
 A small CodeIgniter Controller and Model to generate an (in theory... infinite-deep) multi-level menu.
 
+### Included features ###
+* As less database calls as possible (we'll need only 1)
+* As generic as possible (using a recursive function)
+* As clean as possible
+* The menu in this example is 5 levels 'deep' (friends, it can be as deep as the ocean...)
+* following the HMVC specs.
+
+Sourcecode contains only ** 25 relevant lines **
+
+
+
 The result will be something like this
 
 ![Result MultiLevel Menu in CodeIgniter](http://www.driesen.eu/insiderclub/multilevelmenu/multilevel01.png)
@@ -13,25 +24,17 @@ The result will be something like this
 * Some basic PHP knowledge
 * Some basic MySQL knowledge
 
-### Included features ###
-* As less database calls as possible (we'll need only 1 call)
-* As generic as possible (using a recursive function)
-* As clean as possible
-* The menu in this example is 5 levels 'deep' (friends, it can be as deep as the ocean...)
-* following the HMVC specs.
-
-Sourcecode contains only ** 25 relevant lines **
 
 #### Step 1: creating the table in MySQL. ####
 
 Our table (named 'menus') will have only 4 fields...
 
-* *** id (int) *** : Unique AI integer
-* *** parent_id (int) *** : refers to the id...
-* *** name (varchar) *** : the name of our menu
-* *** sequence (int) *** : will determine the 'order' in which the menu-items will be shown (per level ...)
+* ***id (int)*** : Unique AI integer
+* ***parent_id (int)*** : refers to the id...
+* ***name (varchar)*** : the name of our menu
+* ***sequence (int)*** : will determine the 'order' in which the menu-items will be shown (per level ...)
 
-*** Remark: ***
+***Remark:***
 By using the sequence field, we can make to menu-levels independent from the ID's in our table...
 
 See the image below for details
