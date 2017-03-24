@@ -115,6 +115,7 @@ class Mdl_menus extends CI_Model {
 
 #### Step 4 The view ####
 Basic rule of HMVC ... NO Business Logic in your views...
+
 Well, this is the content of our View ...
 ```
 echo $menu;
@@ -122,5 +123,9 @@ echo $menu;
 
 ** And we are DONE !!! **
 
-Grtz,
+Once the above files are copied to the right location, you can simply run this small demo by:
+
+http\\\\ ***yourserver*** \\ ***yourappname*** \\ menus  
+
+Enjoy & Grtz,
 Johnny
