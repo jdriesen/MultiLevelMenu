@@ -9,7 +9,7 @@ A small CodeIgniter Controller and Model to generate an (in theory... infinite-d
 * The menu in this example is 5 levels 'deep' (friends, it can be as deep as the ocean...)
 * following the HMVC specs.
 
-Sourcecode contains only ** 25 relevant lines **
+Sourcecode contains only **25 relevant lines**
 
 
 
