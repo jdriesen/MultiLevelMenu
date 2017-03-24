@@ -1,10 +1,10 @@
 # Infinite-deep MultiLevel Menu in CodeIgniter
 
-A small CodeIgniter Controller and Module to generate an (in theory... infinite-deep) multi-level menu.
+A small CodeIgniter Controller and Model to generate an (in theory... infinite-deep) multi-level menu.
 
 The result will be something like this
 
-![Result MultiLevel Menu in CodeIgniter](http://www.driesen.eu/insiderclub/phil.png)
+![Result MultiLevel Menu in CodeIgniter](http://www.driesen.eu/insiderclub/multilevelmenu/multilevel01.png)
 
 ### Requirement ###
 
@@ -22,7 +22,7 @@ The result will be something like this
 
 Sourcecode contains only ** 25 relevant lines **
 
-#### Step 1: creating the table. ####
+#### Step 1: creating the table in MySQL. ####
 
 Our table (named 'menus') will have only 4 fields...
 
@@ -37,7 +37,7 @@ By using the sequence field, we can make to menu-levels independent from the ID'
 See the image below for details
 
 
-![Rec Id in your database does not really mather](http://www.driesen.eu/insiderclub/phil2.png)
+![Rec Id in your database does not really mather](http://www.driesen.eu/insiderclub/multilevelmenu/multilevel02.png)
 
 
 
@@ -125,4 +125,3 @@ and run servername/projectname/** menus**  (don't forget to create your table !!
 
 Grtz,
 Johnny
-
