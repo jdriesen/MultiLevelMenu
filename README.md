@@ -73,9 +73,9 @@ Pretty simple, no ?
 
 #### Step 3: The Model. ####
 Beside the constructor, our Model has 2 functions...
-** get_items()**  does 1 database call (yep, only ONE)
-** generateTree()**  is a recursive function which does the complete job.
-In other words, it generates ALL the menu levels, in a nice and clean way...
+
+* **get_items()**  does 1 database call (yep, only ONE)
+* **generateTree()**  is a recursive function which does the complete job. In other words, it generates ALL the menu levels, in a nice and clean way...
 
 ```
 class Mdl_menus extends CI_Model {
