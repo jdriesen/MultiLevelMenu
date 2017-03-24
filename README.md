@@ -68,7 +68,7 @@ class Menus extends MY_Controller {
 
 Pretty simple, no ?
 
-#### Step 3: The Model.####
+#### Step 3: The Model. ####
 Beside the constructor, our Model has 2 functions...
 ** get_items()**  does 1 database call (yep, only ONE)
 ** generateTree()**  is a recursive function which does the complete job.
