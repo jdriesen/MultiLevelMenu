@@ -114,8 +114,8 @@ class Mdl_menus extends CI_Model {
 
 
 #### Step 4 The view ####
-Basic rule of HMVC ... just use ECHO's in your views... (so, NO Business Logic)
-Well, this is the content of View ...
+Basic rule of HMVC ... NO Business Logic in your views...
+Well, this is the content of our View ...
 ```
 echo $menu;
 ```
