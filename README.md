@@ -119,9 +119,5 @@ echo $menu;
 
 ** And we are DONE !!! **
 
-The complete code is [link="http://www.driesen.eu/insiderclub/menus.zip"]downloadable here...[/link]
-Just drag and drop this in your *** application/modules *** folder
-and run servername/projectname/** menus**  (don't forget to create your table !!!)
-
 Grtz,
 Johnny
